@@ -19,4 +19,13 @@ backup_acsprset.spr
 # Memory dumps
 *.dmp
 
+# Temporary files
+# temporarily created during sprite or room background compression
+~aclzw.tmp
+# temporary, main game data, before getting packed into exe
+game28.dta
+# temporary build of the game before being moved to Compiled/ folder
+*.exe
 
+# Log files
+warnings.log
